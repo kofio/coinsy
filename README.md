@@ -36,6 +36,9 @@ If you feel this software is of use please consider donating to one of the follo
 	DOGE: D5G6FkhoQyNkvBBGnHpZNHAGUKtZ5FCUyN
 	MINT: Mr23GFpyZbTHQ2Yi1xkBQCKb3V69EKRM7j
 	VERT: Vof3tnHSFQsja92QySEgDTBYFMGvRv2Efz
+	AUR: AbCykvY1G9hiMaaY13KYWsg3c3Kkv57ZF6
+	HVC: HBxnfW8TGnS8JPDJ5QmyyN1yq6qbT2CW5e
+	CON: UPM58usAn9QbdBNWJ5tKGiUQsfjaXJcyiM
 	
 If the address is not listed please let me know.
 
