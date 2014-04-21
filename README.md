@@ -15,7 +15,7 @@ The code can be compiled on most operating systems using bjam:
 
 	`bjam toolset=clang cxxflags="-std=c++11 -stdlib=libc++" linkflags="-stdlib=libc++" debug`
 
-I have provided a reference implementation with a fully functioning client for Mac OS X. You can download it [here](http://hidemyass.com/files/1kC6c/).
+I have provided a reference implementation with a fully functioning client for Mac OS X. You can download it soon.
 
 There are several to do's in no particular order.
 
