@@ -9,7 +9,7 @@ The network can be easily extended to create other realtime services including m
 
 The code can be compiled on most operating systems using bjam, something similar to:
 
-	`bjam toolset=clang cxxflags="-std=c++11 -stdlib=libc++linkflags="-stdlib=libc++" debug`
+	`bjam toolset=clang cxxflags="-std=c++11 -stdlib=libc++" linkflags="-stdlib=libc++" debug`
 
 I have provided a reference implementation with a fully functioning client for Mac OS X. You can download it [here](http://hidemyass.com/files/1kC6c/).
 
@@ -34,8 +34,4 @@ If you feel this software is of use please consider donating to one of the follo
 	
 If the address is not listed please let me know.
 
-<<<<<<< HEAD
 adudalesdi@hmamail.com
-=======
-adudalesdi@hmamail.com
->>>>>>> 9605697286acc03f60e432f4e505d72320e9bea5
