@@ -7,7 +7,11 @@ I have implemented a realtime decentralized peer to peer exchange mechanism that
 
 The network can be easily extended to create other realtime services including market places for physical items.
 
-The code can be compiled on most operating systems using bjam, something similar to:
+The code can be compiled on most operating systems using bjam:
+
+1. Download boost to deps/boost and deps/platforms/osx/boost.
+2. Run deps/platforms/osx/boost/bootstrap.sh
+3. To compile, something similar to:
 
 	`bjam toolset=clang cxxflags="-std=c++11 -stdlib=libc++" linkflags="-stdlib=libc++" debug`
 
