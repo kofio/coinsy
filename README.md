@@ -5,7 +5,7 @@ An anonymous decentralized censorship resistant crypto-currency exchange.
 
 I have implemented a realtime decentralized peer to peer exchange mechanism that is secure, anonymous, robust and fast. Packets are obfuscated and sensitive material is encrypted using public key cryptography.
 
-The network can be easily extended to create other realtime services including market places for physical items.
+The network can be easily extended to create other realtime services including decentralized market places or telephone systems.
 
 The code can be compiled on most operating systems using bjam:
 
@@ -23,10 +23,12 @@ There are several to do's in no particular order.
 2. Implement a "Web of Trust" modal rather than a controlled decentralized public key infrastructure.
 3. Implement block chain functionality.
 4. Come to public consensus on escrow. A decentralized algorithm proves to work effectively in simulations but users may want to use centralized escrow services.
-5. Use non-random account balances.
+5. Use non-random account balances (related to 4).
 6. Fix "hung" offers (possibly related to 1.).
 7. Cleanup database code and upload.
-8. Release version 1.0.
+8. Start implementing iOS, Android, Linux, Windows, etc clients.
+10. Implement market chart into reference client for OS X.
+11. Release version 1.0.
 
 If you feel this software is of use please consider donating to one of the following crypto-currency addresses:
 
@@ -41,5 +43,7 @@ If you feel this software is of use please consider donating to one of the follo
 	CON: UPM58usAn9QbdBNWJ5tKGiUQsfjaXJcyiM
 	
 If the address is not listed please let me know.
+
+Adudalesdi Ganiladisdi
 
 adudalesdi@hmamail.com
