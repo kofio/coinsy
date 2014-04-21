@@ -26,6 +26,7 @@ There are several to do's in no particular order.
 5. Use non-random account balances.
 6. Fix "hung" offers (possibly related to 1.).
 7. Cleanup database code and upload.
+8. Release version 1.0.
 
 If you feel this software is of use please consider donating to one of the following crypto-currency addresses:
 
