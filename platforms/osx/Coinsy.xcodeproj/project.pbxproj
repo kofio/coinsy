@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B902758D179001E9004DABD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B902758B179001E9004DABD8 /* InfoPlist.strings */; };
+		B902758F179001E9004DABD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B902758E179001E9004DABD8 /* main.m */; };
+		B9027593179001E9004DABD8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B9027591179001E9004DABD8 /* Credits.rtf */; };
+		B90275AB179102DA004DABD8 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90275A9179102DA004DABD8 /* stack.cpp */; };
+		B90275B2179110BF004DABD8 /* COStack.mm in Sources */ = {isa = PBXBuildFile; fileRef = B90275B1179110BF004DABD8 /* COStack.mm */; };
+		B90CE3DC18D295A6006BCA06 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CE3DB18D295A6006BCA06 /* Cocoa.framework */; };
+		B90CE3DF18D2D6BD006BCA06 /* WelcomeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90CE3DD18D2D6BD006BCA06 /* WelcomeWindow.xib */; };
+		B90CE3E218D2D6E3006BCA06 /* COWelcomeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CE3E118D2D6E3006BCA06 /* COWelcomeWindowController.m */; };
+		B90CE3E518D2EF70006BCA06 /* COBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CE3E418D2EF70006BCA06 /* COBackgroundView.m */; };
+		B916910317C49AC000342273 /* credentials_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B916910117C49AC000342273 /* credentials_manager.cpp */; };
+		B916910617C4A21D00342273 /* rsa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B916910517C4A21D00342273 /* rsa.cpp */; };
+		B916911117C5E54300342273 /* http_transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B916910F17C5E54300342273 /* http_transport.cpp */; };
+		B916911517C7257A00342273 /* authentication_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B916911317C7257900342273 /* authentication_manager.cpp */; };
+		B919231218D3DDF4007DD071 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = B919231118D3DDF4007DD071 /* NSString+Random.m */; };
+		B91DBD9117CB40BA008C30F3 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9017CB40BA008C30F3 /* envelope.cpp */; };
+		B91DBD9617CBA381008C30F3 /* filesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9417CBA380008C30F3 /* filesystem.cpp */; };
+		B91DBD9917CBF30B008C30F3 /* uri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9817CBF30B008C30F3 /* uri.cpp */; };
+		B944F65B179909FF005F5DDA /* libdatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B944F65A179909FF005F5DDA /* libdatabase.a */; };
+		B94527C718EC13C80021325F /* COTradesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94527C618EC13C80021325F /* COTradesTableView.m */; };
+		B953DB0318D462250073DDFB /* GRProKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B953DB0218D462250073DDFB /* GRProKit.framework */; };
+		B953DB0418D4622A0073DDFB /* GRProKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953DB0218D462250073DDFB /* GRProKit.framework */; };
+		B953DB0818D4633C0073DDFB /* market_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B953DB0618D4633C0073DDFB /* market_manager.cpp */; };
+		B953DB0B18D4638D0073DDFB /* COMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B953DB0A18D4638D0073DDFB /* COMainWindowController.m */; };
+		B953DB0E18D463CE0073DDFB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B953DB0C18D463CE0073DDFB /* MainWindow.xib */; };
+		B95502ED1809389100B9C97D /* version_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B95502EB1809389100B9C97D /* version_manager.cpp */; };
+		B964EAA418D54F8B001E29A4 /* MarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B964EAA218D54F8B001E29A4 /* MarketViewController.xib */; };
+		B964EAA718D54F9C001E29A4 /* COMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B964EAA618D54F9C001E29A4 /* COMarketViewController.m */; };
+		B977B259179FB080009ECEAF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B977B258179FB080009ECEAF /* Security.framework */; };
+		B977B25C179FC6C1009ECEAF /* stack_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90275AD179102F2004DABD8 /* stack_impl.cpp */; };
+		B977B25E179FCB3D009ECEAF /* COAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9027595179001E9004DABD8 /* COAppDelegate.m */; };
+		B9830A5D18D4473A0098B636 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9830A5B18D4473A0098B636 /* market.cpp */; };
+		B9863C4717B214820065824E /* libminiupnpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9863C4617B214820065824E /* libminiupnpc.a */; };
+		B99792FE179243720089BAA1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B99792F4179243720089BAA1 /* Credits.rtf */; };
+		B99792FF179243720089BAA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B99792F6179243720089BAA1 /* InfoPlist.strings */; };
+		B9979300179243720089BAA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99792F8179243720089BAA1 /* MainMenu.xib */; };
+		B9B5668D18FBE7AF008D7CF7 /* aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5668B18FBE7AF008D7CF7 /* aes.cpp */; };
+		B9B68D6018F8CE8400A4B7DC /* message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B68D5F18F8CE8400A4B7DC /* message.cpp */; };
+		B9B6DB0F18F69ED300BCB2DA /* trollbox_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B6DB0D18F69ED300BCB2DA /* trollbox_manager.cpp */; };
+		B9B6DB1218F69EE700BCB2DA /* trollbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B6DB1018F69EE700BCB2DA /* trollbox.cpp */; };
+		B9E0740B17F4FE2700E9F26D /* profile_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E0740917F4FE2700E9F26D /* profile_manager.cpp */; };
+		B9E8232818FA0DE100EA043A /* NSString+Additions.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E8232718FA0DE100EA043A /* NSString+Additions.mm */; };
+		B9F1270318F9331B00DA3C97 /* message_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F1270118F9331B00DA3C97 /* message_manager.cpp */; };
+		B9FBC3D018D966090077518E /* balance_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FBC3CE18D966090077518E /* balance_manager.cpp */; };
+		B9FC17B918F8DF1D00020390 /* location_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FC17B718F8DF1D00020390 /* location_manager.cpp */; };
+		B9FC17BF18F8F0DA00020390 /* COMessageWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC17BD18F8F0DA00020390 /* COMessageWindowController.m */; };
+		B9FC17C318F8F0F000020390 /* MessageWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC17C118F8F0F000020390 /* MessageWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B90CE3EC18D2FC15006BCA06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B953DB0318D462250073DDFB /* GRProKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B902757F179001E9004DABD8 /* Coinsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9027585179001E9004DABD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B9027586179001E9004DABD8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B9027587179001E9004DABD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B902758A179001E9004DABD8 /* Coinsy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coinsy-Info.plist"; sourceTree = "<group>"; };
+		B902758C179001E9004DABD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B902758E179001E9004DABD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9027590179001E9004DABD8 /* Coinsy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coinsy-Prefix.pch"; sourceTree = "<group>"; };
+		B9027592179001E9004DABD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B9027594179001E9004DABD8 /* COAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COAppDelegate.h; sourceTree = "<group>"; };
+		B9027595179001E9004DABD8 /* COAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COAppDelegate.m; sourceTree = "<group>"; };
+		B90275A8179102D1004DABD8 /* stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
+		B90275A9179102DA004DABD8 /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		B90275AC179102E9004DABD8 /* stack_impl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack_impl.hpp; sourceTree = "<group>"; };
+		B90275AD179102F2004DABD8 /* stack_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack_impl.cpp; sourceTree = "<group>"; };
+		B90275B0179110BF004DABD8 /* COStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COStack.h; sourceTree = "<group>"; };
+		B90275B1179110BF004DABD8 /* COStack.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = COStack.mm; sourceTree = "<group>"; };
+		B90275BF1791135A004DABD8 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../junglecat/trunk/deps/platforms/osx/boost/boost/lib/libboost_system.a; sourceTree = "<group>"; };
+		B90CE3DB18D295A6006BCA06 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B90CE3DE18D2D6BD006BCA06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = WelcomeWindow.xib; sourceTree = "<group>"; };
+		B90CE3E018D2D6E3006BCA06 /* COWelcomeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COWelcomeWindowController.h; sourceTree = "<group>"; };
+		B90CE3E118D2D6E3006BCA06 /* COWelcomeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COWelcomeWindowController.m; sourceTree = "<group>"; };
+		B90CE3E318D2EF70006BCA06 /* COBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COBackgroundView.h; sourceTree = "<group>"; };
+		B90CE3E418D2EF70006BCA06 /* COBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COBackgroundView.m; sourceTree = "<group>"; };
+		B916910017C49AAF00342273 /* credentials_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = credentials_manager.hpp; sourceTree = "<group>"; };
+		B916910117C49AC000342273 /* credentials_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = credentials_manager.cpp; sourceTree = "<group>"; };
+		B916910517C4A21D00342273 /* rsa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsa.cpp; sourceTree = "<group>"; };
+		B916910717C4A23000342273 /* rsa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rsa.hpp; sourceTree = "<group>"; };
+		B916910E17C5E53300342273 /* http_transport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = http_transport.hpp; sourceTree = "<group>"; };
+		B916910F17C5E54300342273 /* http_transport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_transport.cpp; sourceTree = "<group>"; };
+		B916911217C7256F00342273 /* authentication_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = authentication_manager.hpp; sourceTree = "<group>"; };
+		B916911317C7257900342273 /* authentication_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = authentication_manager.cpp; sourceTree = "<group>"; };
+		B916911617C732E900342273 /* crypto.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = crypto.hpp; sourceTree = "<group>"; };
+		B916911E17C7C2B400342273 /* certificates.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = certificates.hpp; sourceTree = "<group>"; };
+		B919231018D3DDF4007DD071 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		B919231118D3DDF4007DD071 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
+		B91DBD9017CB40BA008C30F3 /* envelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = envelope.cpp; sourceTree = "<group>"; };
+		B91DBD9217CB40C2008C30F3 /* envelope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = envelope.hpp; sourceTree = "<group>"; };
+		B91DBD9317CBA36E008C30F3 /* filesystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = filesystem.hpp; sourceTree = "<group>"; };
+		B91DBD9417CBA380008C30F3 /* filesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filesystem.cpp; sourceTree = "<group>"; };
+		B91DBD9717CBF2C3008C30F3 /* uri.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = uri.hpp; sourceTree = "<group>"; };
+		B91DBD9817CBF30B008C30F3 /* uri.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uri.cpp; sourceTree = "<group>"; };
+		B944F65A179909FF005F5DDA /* libdatabase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdatabase.a; path = ../../deps/platforms/osx/packet7/database/lib/libdatabase.a; sourceTree = "<group>"; };
+		B94527C518EC13C80021325F /* COTradesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTradesTableView.h; sourceTree = "<group>"; };
+		B94527C618EC13C80021325F /* COTradesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTradesTableView.m; sourceTree = "<group>"; };
+		B953DB0218D462250073DDFB /* GRProKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GRProKit.framework; path = Coinsy/Frameworks/GRProKit.framework; sourceTree = "<group>"; };
+		B953DB0518D462D30073DDFB /* market_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = market_manager.hpp; sourceTree = "<group>"; };
+		B953DB0618D4633C0073DDFB /* market_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market_manager.cpp; sourceTree = "<group>"; };
+		B953DB0918D4638D0073DDFB /* COMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COMainWindowController.h; sourceTree = "<group>"; };
+		B953DB0A18D4638D0073DDFB /* COMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COMainWindowController.m; sourceTree = "<group>"; };
+		B953DB0D18D463CE0073DDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
+		B95502EA1809388300B9C97D /* version_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = version_manager.hpp; sourceTree = "<group>"; };
+		B95502EB1809389100B9C97D /* version_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = version_manager.cpp; sourceTree = "<group>"; };
+		B95502EE180A14EF00B9C97D /* constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = constants.hpp; sourceTree = "<group>"; };
+		B95502EF180A14EF00B9C97D /* logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = logger.hpp; sourceTree = "<group>"; };
+		B964EA9D18D54974001E29A4 /* ask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ask.hpp; sourceTree = "<group>"; };
+		B964EAA318D54F8B001E29A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MarketViewController.xib; sourceTree = "<group>"; };
+		B964EAA518D54F9C001E29A4 /* COMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COMarketViewController.h; sourceTree = "<group>"; };
+		B964EAA618D54F9C001E29A4 /* COMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COMarketViewController.m; sourceTree = "<group>"; };
+		B964EAA818D59E13001E29A4 /* bid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bid.hpp; sourceTree = "<group>"; };
+		B977B258179FB080009ECEAF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B9830A5A18D4471A0098B636 /* market.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = market.hpp; sourceTree = "<group>"; };
+		B9830A5B18D4473A0098B636 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
+		B9863C4617B214820065824E /* libminiupnpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminiupnpc.a; path = ../../deps/platforms/osx/miniupnpc/lib/libminiupnpc.a; sourceTree = "<group>"; };
+		B99792F5179243720089BAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		B99792F7179243720089BAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		B99792F9179243720089BAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		B997931C179364850089BAA1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B9B5668A18FBE7A2008D7CF7 /* aes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = aes.hpp; sourceTree = "<group>"; };
+		B9B5668B18FBE7AF008D7CF7 /* aes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aes.cpp; sourceTree = "<group>"; };
+		B9B68D5E18F8CE6100A4B7DC /* message.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = message.hpp; sourceTree = "<group>"; };
+		B9B68D5F18F8CE8400A4B7DC /* message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message.cpp; sourceTree = "<group>"; };
+		B9B6DB0A18F69E9C00BCB2DA /* trollbox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = trollbox.hpp; sourceTree = "<group>"; };
+		B9B6DB0B18F69EAE00BCB2DA /* trollbox_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = trollbox_manager.hpp; sourceTree = "<group>"; };
+		B9B6DB0D18F69ED300BCB2DA /* trollbox_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trollbox_manager.cpp; sourceTree = "<group>"; };
+		B9B6DB1018F69EE700BCB2DA /* trollbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trollbox.cpp; sourceTree = "<group>"; };
+		B9BC79B117BE1C0C00FADE30 /* Coinsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Coinsy.entitlements; path = Coinsy/Coinsy.entitlements; sourceTree = "<group>"; };
+		B9E0740817F4FE1600E9F26D /* profile_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = profile_manager.hpp; sourceTree = "<group>"; };
+		B9E0740917F4FE2700E9F26D /* profile_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = profile_manager.cpp; sourceTree = "<group>"; };
+		B9E8232618FA0DE100EA043A /* NSString+Additions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "NSString+Additions.hpp"; sourceTree = "<group>"; };
+		B9E8232718FA0DE100EA043A /* NSString+Additions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+Additions.mm"; sourceTree = "<group>"; };
+		B9F1270018F9330600DA3C97 /* message_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = message_manager.hpp; sourceTree = "<group>"; };
+		B9F1270118F9331B00DA3C97 /* message_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message_manager.cpp; sourceTree = "<group>"; };
+		B9FBC3CD18D965FB0077518E /* balance_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = balance_manager.hpp; sourceTree = "<group>"; };
+		B9FBC3CE18D966090077518E /* balance_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = balance_manager.cpp; sourceTree = "<group>"; };
+		B9FC17B618F8DF0700020390 /* location_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = location_manager.hpp; sourceTree = "<group>"; };
+		B9FC17B718F8DF1D00020390 /* location_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = location_manager.cpp; sourceTree = "<group>"; };
+		B9FC17BC18F8F0DA00020390 /* COMessageWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COMessageWindowController.h; sourceTree = "<group>"; };
+		B9FC17BD18F8F0DA00020390 /* COMessageWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COMessageWindowController.m; sourceTree = "<group>"; };
+		B9FC17C218F8F0F000020390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MessageWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B902757C179001E9004DABD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953DB0418D4622A0073DDFB /* GRProKit.framework in Frameworks */,
+				B90CE3DC18D295A6006BCA06 /* Cocoa.framework in Frameworks */,
+				B977B259179FB080009ECEAF /* Security.framework in Frameworks */,
+				B944F65B179909FF005F5DDA /* libdatabase.a in Frameworks */,
+				B9863C4717B214820065824E /* libminiupnpc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9027576179001E9004DABD8 = {
+			isa = PBXGroup;
+			children = (
+				B953DB0218D462250073DDFB /* GRProKit.framework */,
+				B919230F18D3DDF4007DD071 /* Categories */,
+				B9BC79B117BE1C0C00FADE30 /* Coinsy.entitlements */,
+				B997930317924E3A0089BAA1 /* Images */,
+				B90275A5179102BF004DABD8 /* include */,
+				B90275A7179102BF004DABD8 /* src */,
+				B9027588179001E9004DABD8 /* Coinsy */,
+				B9027581179001E9004DABD8 /* Frameworks */,
+				B9027580179001E9004DABD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9027580179001E9004DABD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B902757F179001E9004DABD8 /* Coinsy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9027581179001E9004DABD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90CE3DB18D295A6006BCA06 /* Cocoa.framework */,
+				B9863C4617B214820065824E /* libminiupnpc.a */,
+				B977B258179FB080009ECEAF /* Security.framework */,
+				B9027584179001E9004DABD8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9027584179001E9004DABD8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B997931C179364850089BAA1 /* libicucore.dylib */,
+				B90275BF1791135A004DABD8 /* libboost_system.a */,
+				B944F65A179909FF005F5DDA /* libdatabase.a */,
+				B9027585179001E9004DABD8 /* AppKit.framework */,
+				B9027586179001E9004DABD8 /* CoreData.framework */,
+				B9027587179001E9004DABD8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B9027588179001E9004DABD8 /* Coinsy */ = {
+			isa = PBXGroup;
+			children = (
+				B99792F3179243720089BAA1 /* en.lproj */,
+				B9027594179001E9004DABD8 /* COAppDelegate.h */,
+				B9027595179001E9004DABD8 /* COAppDelegate.m */,
+				B9027589179001E9004DABD8 /* Supporting Files */,
+				B90CE3E318D2EF70006BCA06 /* COBackgroundView.h */,
+				B90CE3E418D2EF70006BCA06 /* COBackgroundView.m */,
+				B953DB0918D4638D0073DDFB /* COMainWindowController.h */,
+				B953DB0A18D4638D0073DDFB /* COMainWindowController.m */,
+				B90275B0179110BF004DABD8 /* COStack.h */,
+				B90275B1179110BF004DABD8 /* COStack.mm */,
+				B94527C518EC13C80021325F /* COTradesTableView.h */,
+				B94527C618EC13C80021325F /* COTradesTableView.m */,
+				B90CE3E018D2D6E3006BCA06 /* COWelcomeWindowController.h */,
+				B90CE3E118D2D6E3006BCA06 /* COWelcomeWindowController.m */,
+				B964EAA518D54F9C001E29A4 /* COMarketViewController.h */,
+				B964EAA618D54F9C001E29A4 /* COMarketViewController.m */,
+				B9FC17BC18F8F0DA00020390 /* COMessageWindowController.h */,
+				B9FC17BD18F8F0DA00020390 /* COMessageWindowController.m */,
+			);
+			path = Coinsy;
+			sourceTree = "<group>";
+		};
+		B9027589179001E9004DABD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B902758A179001E9004DABD8 /* Coinsy-Info.plist */,
+				B902758B179001E9004DABD8 /* InfoPlist.strings */,
+				B902758E179001E9004DABD8 /* main.m */,
+				B9027590179001E9004DABD8 /* Coinsy-Prefix.pch */,
+				B9027591179001E9004DABD8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B90275A5179102BF004DABD8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B90275A6179102BF004DABD8 /* coinsy */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+		B90275A6179102BF004DABD8 /* coinsy */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5668A18FBE7A2008D7CF7 /* aes.hpp */,
+				B964EA9D18D54974001E29A4 /* ask.hpp */,
+				B916911217C7256F00342273 /* authentication_manager.hpp */,
+				B9FBC3CD18D965FB0077518E /* balance_manager.hpp */,
+				B964EAA818D59E13001E29A4 /* bid.hpp */,
+				B916911E17C7C2B400342273 /* certificates.hpp */,
+				B95502EE180A14EF00B9C97D /* constants.hpp */,
+				B916910017C49AAF00342273 /* credentials_manager.hpp */,
+				B916911617C732E900342273 /* crypto.hpp */,
+				B91DBD9217CB40C2008C30F3 /* envelope.hpp */,
+				B91DBD9317CBA36E008C30F3 /* filesystem.hpp */,
+				B916910E17C5E53300342273 /* http_transport.hpp */,
+				B95502EF180A14EF00B9C97D /* logger.hpp */,
+				B9FC17B618F8DF0700020390 /* location_manager.hpp */,
+				B9830A5A18D4471A0098B636 /* market.hpp */,
+				B953DB0518D462D30073DDFB /* market_manager.hpp */,
+				B9B68D5E18F8CE6100A4B7DC /* message.hpp */,
+				B9F1270018F9330600DA3C97 /* message_manager.hpp */,
+				B9E0740817F4FE1600E9F26D /* profile_manager.hpp */,
+				B916910717C4A23000342273 /* rsa.hpp */,
+				B90275A8179102D1004DABD8 /* stack.hpp */,
+				B90275AC179102E9004DABD8 /* stack_impl.hpp */,
+				B91DBD9717CBF2C3008C30F3 /* uri.hpp */,
+				B95502EA1809388300B9C97D /* version_manager.hpp */,
+				B9B6DB0A18F69E9C00BCB2DA /* trollbox.hpp */,
+				B9B6DB0B18F69EAE00BCB2DA /* trollbox_manager.hpp */,
+			);
+			path = coinsy;
+			sourceTree = "<group>";
+		};
+		B90275A7179102BF004DABD8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5668B18FBE7AF008D7CF7 /* aes.cpp */,
+				B916911317C7257900342273 /* authentication_manager.cpp */,
+				B9FBC3CE18D966090077518E /* balance_manager.cpp */,
+				B916910117C49AC000342273 /* credentials_manager.cpp */,
+				B91DBD9017CB40BA008C30F3 /* envelope.cpp */,
+				B91DBD9417CBA380008C30F3 /* filesystem.cpp */,
+				B916910F17C5E54300342273 /* http_transport.cpp */,
+				B9FC17B718F8DF1D00020390 /* location_manager.cpp */,
+				B9830A5B18D4473A0098B636 /* market.cpp */,
+				B953DB0618D4633C0073DDFB /* market_manager.cpp */,
+				B9B68D5F18F8CE8400A4B7DC /* message.cpp */,
+				B9F1270118F9331B00DA3C97 /* message_manager.cpp */,
+				B9E0740917F4FE2700E9F26D /* profile_manager.cpp */,
+				B916910517C4A21D00342273 /* rsa.cpp */,
+				B90275A9179102DA004DABD8 /* stack.cpp */,
+				B90275AD179102F2004DABD8 /* stack_impl.cpp */,
+				B91DBD9817CBF30B008C30F3 /* uri.cpp */,
+				B95502EB1809389100B9C97D /* version_manager.cpp */,
+				B9B6DB1018F69EE700BCB2DA /* trollbox.cpp */,
+				B9B6DB0D18F69ED300BCB2DA /* trollbox_manager.cpp */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		B919230F18D3DDF4007DD071 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B919231018D3DDF4007DD071 /* NSString+Random.h */,
+				B919231118D3DDF4007DD071 /* NSString+Random.m */,
+				B9E8232618FA0DE100EA043A /* NSString+Additions.hpp */,
+				B9E8232718FA0DE100EA043A /* NSString+Additions.mm */,
+			);
+			name = Categories;
+			path = Coinsy/Categories;
+			sourceTree = "<group>";
+		};
+		B99792F3179243720089BAA1 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B99792F4179243720089BAA1 /* Credits.rtf */,
+				B99792F6179243720089BAA1 /* InfoPlist.strings */,
+				B99792F8179243720089BAA1 /* MainMenu.xib */,
+				B90CE3DD18D2D6BD006BCA06 /* WelcomeWindow.xib */,
+				B953DB0C18D463CE0073DDFB /* MainWindow.xib */,
+				B964EAA218D54F8B001E29A4 /* MarketViewController.xib */,
+				B9FC17C118F8F0F000020390 /* MessageWindow.xib */,
+			);
+			name = en.lproj;
+			path = ../Coinsy/en.lproj;
+			sourceTree = "<group>";
+		};
+		B997930317924E3A0089BAA1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = Grapevine/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B902757E179001E9004DABD8 /* Coinsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B902759C179001E9004DABD8 /* Build configuration list for PBXNativeTarget "Coinsy" */;
+			buildPhases = (
+				B902757B179001E9004DABD8 /* Sources */,
+				B902757C179001E9004DABD8 /* Frameworks */,
+				B902757D179001E9004DABD8 /* Resources */,
+				B90CE3EC18D2FC15006BCA06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coinsy;
+			productName = Finch;
+			productReference = B902757F179001E9004DABD8 /* Coinsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9027577179001E9004DABD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "None";
+				TargetAttributes = {
+					B902757E179001E9004DABD8 = {
+						DevelopmentTeam = 766T2NW4K9;
+					};
+				};
+			};
+			buildConfigurationList = B902757A179001E9004DABD8 /* Build configuration list for PBXProject "Coinsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9027576179001E9004DABD8;
+			productRefGroup = B9027580179001E9004DABD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B902757E179001E9004DABD8 /* Coinsy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B902757D179001E9004DABD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B902758D179001E9004DABD8 /* InfoPlist.strings in Resources */,
+				B9027593179001E9004DABD8 /* Credits.rtf in Resources */,
+				B9FC17C318F8F0F000020390 /* MessageWindow.xib in Resources */,
+				B99792FE179243720089BAA1 /* Credits.rtf in Resources */,
+				B99792FF179243720089BAA1 /* InfoPlist.strings in Resources */,
+				B953DB0E18D463CE0073DDFB /* MainWindow.xib in Resources */,
+				B9979300179243720089BAA1 /* MainMenu.xib in Resources */,
+				B90CE3DF18D2D6BD006BCA06 /* WelcomeWindow.xib in Resources */,
+				B964EAA418D54F8B001E29A4 /* MarketViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B902757B179001E9004DABD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B902758F179001E9004DABD8 /* main.m in Sources */,
+				B90275AB179102DA004DABD8 /* stack.cpp in Sources */,
+				B90275B2179110BF004DABD8 /* COStack.mm in Sources */,
+				B9FC17BF18F8F0DA00020390 /* COMessageWindowController.m in Sources */,
+				B953DB0818D4633C0073DDFB /* market_manager.cpp in Sources */,
+				B9B6DB1218F69EE700BCB2DA /* trollbox.cpp in Sources */,
+				B9E0740B17F4FE2700E9F26D /* profile_manager.cpp in Sources */,
+				B977B25C179FC6C1009ECEAF /* stack_impl.cpp in Sources */,
+				B977B25E179FCB3D009ECEAF /* COAppDelegate.m in Sources */,
+				B90CE3E518D2EF70006BCA06 /* COBackgroundView.m in Sources */,
+				B9B5668D18FBE7AF008D7CF7 /* aes.cpp in Sources */,
+				B916910317C49AC000342273 /* credentials_manager.cpp in Sources */,
+				B90CE3E218D2D6E3006BCA06 /* COWelcomeWindowController.m in Sources */,
+				B9FBC3D018D966090077518E /* balance_manager.cpp in Sources */,
+				B9830A5D18D4473A0098B636 /* market.cpp in Sources */,
+				B964EAA718D54F9C001E29A4 /* COMarketViewController.m in Sources */,
+				B95502ED1809389100B9C97D /* version_manager.cpp in Sources */,
+				B916910617C4A21D00342273 /* rsa.cpp in Sources */,
+				B9B6DB0F18F69ED300BCB2DA /* trollbox_manager.cpp in Sources */,
+				B916911117C5E54300342273 /* http_transport.cpp in Sources */,
+				B9F1270318F9331B00DA3C97 /* message_manager.cpp in Sources */,
+				B953DB0B18D4638D0073DDFB /* COMainWindowController.m in Sources */,
+				B919231218D3DDF4007DD071 /* NSString+Random.m in Sources */,
+				B94527C718EC13C80021325F /* COTradesTableView.m in Sources */,
+				B916911517C7257A00342273 /* authentication_manager.cpp in Sources */,
+				B91DBD9117CB40BA008C30F3 /* envelope.cpp in Sources */,
+				B9B68D6018F8CE8400A4B7DC /* message.cpp in Sources */,
+				B91DBD9617CBA381008C30F3 /* filesystem.cpp in Sources */,
+				B9FC17B918F8DF1D00020390 /* location_manager.cpp in Sources */,
+				B91DBD9917CBF30B008C30F3 /* uri.cpp in Sources */,
+				B9E8232818FA0DE100EA043A /* NSString+Additions.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B902758B179001E9004DABD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B902758C179001E9004DABD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9027591179001E9004DABD8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9027592179001E9004DABD8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B90CE3DD18D2D6BD006BCA06 /* WelcomeWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90CE3DE18D2D6BD006BCA06 /* en */,
+			);
+			name = WelcomeWindow.xib;
+			sourceTree = "<group>";
+		};
+		B953DB0C18D463CE0073DDFB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B953DB0D18D463CE0073DDFB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B964EAA218D54F8B001E29A4 /* MarketViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964EAA318D54F8B001E29A4 /* en */,
+			);
+			name = MarketViewController.xib;
+			sourceTree = "<group>";
+		};
+		B99792F4179243720089BAA1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99792F5179243720089BAA1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B99792F6179243720089BAA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99792F7179243720089BAA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B99792F8179243720089BAA1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99792F9179243720089BAA1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B9FC17C118F8F0F000020390 /* MessageWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9FC17C218F8F0F000020390 /* en */,
+			);
+			name = MessageWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B902759A179001E9004DABD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		B902759B179001E9004DABD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		B902759D179001E9004DABD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coinsy/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coinsy/Coinsy-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					../../deps/platforms/osx/boost,
+					../../deps/platforms/osx/database/include,
+				);
+				INFOPLIST_FILE = "Coinsy/Coinsy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../deps/platforms/osx/boost/lib\"",
+					"\"$(SRCROOT)/../../deps/platforms/osx/database/lib\"",
+					"\"$(SRCROOT)/../../deps/platforms/osx/miniupnpc/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = Coinsy;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B902759E179001E9004DABD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Coinsy/Coinsy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coinsy/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coinsy/Coinsy-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					../../deps/platforms/osx/boost,
+					../../deps/platforms/osx/database/include,
+				);
+				INFOPLIST_FILE = "Coinsy/Coinsy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../deps/platforms/osx/boost/lib\"",
+					"\"$(SRCROOT)/../../deps/platforms/osx/database/lib\"",
+					"\"$(SRCROOT)/../../deps/platforms/osx/miniupnpc/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = Coinsy;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B902757A179001E9004DABD8 /* Build configuration list for PBXProject "Coinsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B902759A179001E9004DABD8 /* Debug */,
+				B902759B179001E9004DABD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B902759C179001E9004DABD8 /* Build configuration list for PBXNativeTarget "Coinsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B902759D179001E9004DABD8 /* Debug */,
+				B902759E179001E9004DABD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9027577179001E9004DABD8 /* Project object */;
+}
