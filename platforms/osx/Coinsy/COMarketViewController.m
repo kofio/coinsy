@@ -283,7 +283,9 @@
     {
         NSDictionary * troll = [self.arrayTrolls objectAtIndex:row];
         
-        return [troll objectForKey:@"m"];
+        return [NSString stringWithFormat:@"%@: %@",
+            [troll objectForKey:@"u"], [troll objectForKey:@"m"]
+        ];
     }
     
     return nil;
