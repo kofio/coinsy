@@ -139,6 +139,11 @@ static NSMutableDictionary * gMessageWindowControllers = nil;
             COMarketViewController * marketViewController = [
                 [COMarketViewController alloc] initWithMarket:market
             ];
+        
+            if (self.viewMarket.subviews.count > 0)
+            {
+                [self.viewMarket.subviews[0] removeFromSuperview];
+            }
             
             [self.viewMarket addSubview:marketViewController.view];
             
@@ -147,6 +152,11 @@ static NSMutableDictionary * gMessageWindowControllers = nil;
             [self.markets addObject:marketViewController];
             
             [self.tableViewMarkets reloadData];
+            
+            [self.tableViewMarkets selectRowIndexes:
+                [NSIndexSet indexSetWithIndex:self.markets.count - 1]
+                byExtendingSelection:NO
+            ];
         }
         
         [self.window endSheet:self.windowMarketAdd];
@@ -275,7 +285,6 @@ static NSMutableDictionary * gMessageWindowControllers = nil;
     {
         rowIndex = [self.tableViewTrades selectedRow];
     }
-    
 }
 
 #pragma mark -
