@@ -1,11 +1,8 @@
-coinsy
-======
+## An anonymous decentralized censorship resistant crypto-currency exchange. ##
 
-An anonymous decentralized censorship resistant crypto-currency exchange.
+My name is Adudalesdi Ganiladisdi and I have invented a realtime decentralized peer to peer exchange platform that is secure, anonymous, censorship-resistant, robust and fast. Packets are obfuscated and sensitive material is encrypted using public key cryptography. This project has grown to where I alone am not enough to take it further. Therefore I am giving it to the world and asking for help in exchange.
 
-I have implemented a realtime decentralized peer to peer exchange mechanism that is secure, anonymous, robust and fast. Packets are obfuscated and sensitive material is encrypted using public key cryptography.
-
-The network can be easily extended to create other realtime services including decentralized market places or telephone systems.
+The network can be easily extended to create other realtime services including decentralized market places or telephone systems. More information is found in /docs.
 
 The code can be compiled on most operating systems using bjam:
 
@@ -15,34 +12,38 @@ The code can be compiled on most operating systems using bjam:
 
 	`bjam toolset=clang cxxflags="-std=c++11 -stdlib=libc++" linkflags="-stdlib=libc++" debug`
 
-I have provided a reference implementation with a fully functioning client for Mac OS X. You can download it [here](http://hidemyass.com/files/1kC6c/).
+I have provided a reference implementation and client for Mac OS X. You can download it [here](http://dropproxy.com/f/786).
+
+<a href='http://i1.someimage.com/uSn0eVE.png' target='_blank'><img src='http://i1.someimage.com/uSn0eVE.png' width='400'></a>
 
 There are several to do's in no particular order.
 
 1. Implement a tcp specific protocol header with an N-bit length field to split incoming packets.
 2. Implement a "Web of Trust" modal rather than a controlled decentralized public key infrastructure.
 3. Implement block chain functionality.
-4. Come to public consensus on escrow. A decentralized algorithm proves to work effectively in simulations but users may want to use centralized escrow services.
+4. Come to consensus on escrow. A decentralized algorithm proves to work effectively in simulations but users may want to use centralized escrow services. Using both would be a +1.
 5. Use non-random account balances (related to 4).
-6. Fix "hung" offers (possibly related to 1.).
-7. Cleanup database code and upload.
-8. Start implementing iOS, Android, Linux, Windows, etc clients.
+6. Fix "hung" offers (related to 1).
+7. Fix possible failed text messages (related to 1).
+8. Cleanup database code and upload.
+9. Start implementing iOS, Android, Linux, Windows, etc clients.
 10. Implement market chart into reference client for OS X.
-11. Release version 1.0.
+11. Release beta version to the general public.
 
-If you feel this software is of use please consider donating to one of the following crypto-currency addresses:
+Please consider donating to one of the following crypto-currency addresses to support this effort:
 
 	BTC: 1CgoUnczfSetSTZxtY7oruSVxHAy8uQrRM
 	NMC: NH6fRud4fWiVohwpJ7Z8qyu9HW1oYQqy1k
 	LTC: LRBAC657e6HxBR2qLzHPq492pEiqppCd2J
 	DOGE: D5G6FkhoQyNkvBBGnHpZNHAGUKtZ5FCUyN
+	BC: B7F6s9AbL9dCDqVbZ3xGWHgQE9SNqUigME
 	MINT: Mr23GFpyZbTHQ2Yi1xkBQCKb3V69EKRM7j
 	VERT: Vof3tnHSFQsja92QySEgDTBYFMGvRv2Efz
 	AUR: AbCykvY1G9hiMaaY13KYWsg3c3Kkv57ZF6
 	HVC: HBxnfW8TGnS8JPDJ5QmyyN1yq6qbT2CW5e
 	CON: UPM58usAn9QbdBNWJ5tKGiUQsfjaXJcyiM
 	
-If the address is not listed please let me know.
+If the address you'd like to use is not listed please let me know.
 
 Adudalesdi Ganiladisdi
 
