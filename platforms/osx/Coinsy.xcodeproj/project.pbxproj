@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ABFD3BB1905FD56004E14EE /* libdatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABFD3BA1905FD56004E14EE /* libdatabase.a */; };
 		B902758D179001E9004DABD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B902758B179001E9004DABD8 /* InfoPlist.strings */; };
 		B902758F179001E9004DABD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B902758E179001E9004DABD8 /* main.m */; };
 		B9027593179001E9004DABD8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B9027591179001E9004DABD8 /* Credits.rtf */; };
@@ -24,7 +25,6 @@
 		B91DBD9117CB40BA008C30F3 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9017CB40BA008C30F3 /* envelope.cpp */; };
 		B91DBD9617CBA381008C30F3 /* filesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9417CBA380008C30F3 /* filesystem.cpp */; };
 		B91DBD9917CBF30B008C30F3 /* uri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B91DBD9817CBF30B008C30F3 /* uri.cpp */; };
-		B944F65B179909FF005F5DDA /* libdatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B944F65A179909FF005F5DDA /* libdatabase.a */; };
 		B94527C718EC13C80021325F /* COTradesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94527C618EC13C80021325F /* COTradesTableView.m */; };
 		B953DB0318D462250073DDFB /* GRProKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B953DB0218D462250073DDFB /* GRProKit.framework */; };
 		B953DB0418D4622A0073DDFB /* GRProKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953DB0218D462250073DDFB /* GRProKit.framework */; };
@@ -69,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1ABFD3BA1905FD56004E14EE /* libdatabase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdatabase.a; path = ../../deps/platforms/osx/database/lib/libdatabase.a; sourceTree = "<group>"; };
 		B902757F179001E9004DABD8 /* Coinsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9027585179001E9004DABD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B9027586179001E9004DABD8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -86,7 +87,6 @@
 		B90275AD179102F2004DABD8 /* stack_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack_impl.cpp; sourceTree = "<group>"; };
 		B90275B0179110BF004DABD8 /* COStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COStack.h; sourceTree = "<group>"; };
 		B90275B1179110BF004DABD8 /* COStack.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = COStack.mm; sourceTree = "<group>"; };
-		B90275BF1791135A004DABD8 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../junglecat/trunk/deps/platforms/osx/boost/boost/lib/libboost_system.a; sourceTree = "<group>"; };
 		B90CE3DB18D295A6006BCA06 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		B90CE3DE18D2D6BD006BCA06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = WelcomeWindow.xib; sourceTree = "<group>"; };
 		B90CE3E018D2D6E3006BCA06 /* COWelcomeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COWelcomeWindowController.h; sourceTree = "<group>"; };
@@ -111,7 +111,6 @@
 		B91DBD9417CBA380008C30F3 /* filesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filesystem.cpp; sourceTree = "<group>"; };
 		B91DBD9717CBF2C3008C30F3 /* uri.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = uri.hpp; sourceTree = "<group>"; };
 		B91DBD9817CBF30B008C30F3 /* uri.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uri.cpp; sourceTree = "<group>"; };
-		B944F65A179909FF005F5DDA /* libdatabase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdatabase.a; path = ../../deps/platforms/osx/packet7/database/lib/libdatabase.a; sourceTree = "<group>"; };
 		B94527C518EC13C80021325F /* COTradesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTradesTableView.h; sourceTree = "<group>"; };
 		B94527C618EC13C80021325F /* COTradesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTradesTableView.m; sourceTree = "<group>"; };
 		B953DB0218D462250073DDFB /* GRProKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GRProKit.framework; path = Coinsy/Frameworks/GRProKit.framework; sourceTree = "<group>"; };
@@ -166,10 +165,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABFD3BB1905FD56004E14EE /* libdatabase.a in Frameworks */,
 				B953DB0418D4622A0073DDFB /* GRProKit.framework in Frameworks */,
 				B90CE3DC18D295A6006BCA06 /* Cocoa.framework in Frameworks */,
 				B977B259179FB080009ECEAF /* Security.framework in Frameworks */,
-				B944F65B179909FF005F5DDA /* libdatabase.a in Frameworks */,
 				B9863C4717B214820065824E /* libminiupnpc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +202,7 @@
 		B9027581179001E9004DABD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1ABFD3BA1905FD56004E14EE /* libdatabase.a */,
 				B90CE3DB18D295A6006BCA06 /* Cocoa.framework */,
 				B9863C4617B214820065824E /* libminiupnpc.a */,
 				B977B258179FB080009ECEAF /* Security.framework */,
@@ -215,8 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				B997931C179364850089BAA1 /* libicucore.dylib */,
-				B90275BF1791135A004DABD8 /* libboost_system.a */,
-				B944F65A179909FF005F5DDA /* libdatabase.a */,
 				B9027585179001E9004DABD8 /* AppKit.framework */,
 				B9027586179001E9004DABD8 /* CoreData.framework */,
 				B9027587179001E9004DABD8 /* Foundation.framework */,
@@ -383,7 +381,7 @@
 			dependencies = (
 			);
 			name = Coinsy;
-			productName = Finch;
+			productName = Coinsy;
 			productReference = B902757F179001E9004DABD8 /* Coinsy.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -642,6 +640,7 @@
 					"\"$(SRCROOT)/../../deps/platforms/osx/boost/lib\"",
 					"\"$(SRCROOT)/../../deps/platforms/osx/database/lib\"",
 					"\"$(SRCROOT)/../../deps/platforms/osx/miniupnpc/lib\"",
+					/Users/freedom/Documents/Development/coinsy/deps/platforms/osx/database/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
@@ -683,6 +682,7 @@
 					"\"$(SRCROOT)/../../deps/platforms/osx/boost/lib\"",
 					"\"$(SRCROOT)/../../deps/platforms/osx/database/lib\"",
 					"\"$(SRCROOT)/../../deps/platforms/osx/miniupnpc/lib\"",
+					/Users/freedom/Documents/Development/coinsy/deps/platforms/osx/database/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
