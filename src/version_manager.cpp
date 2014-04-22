@@ -267,19 +267,11 @@ void version_manager::handle_json(const std::string & json)
         }
         else
         {
-            std::cerr <<
-                "Version manager check failure, message = " <<
-                result["message"] << ", status = " << result["status"] << "." <<
-            std::endl;
+            // ...
         }
     }
     catch (std::exception & e)
     {
-        std::cerr <<
-            "Version manager check failure, what = " <<
-            e.what() << "." <<
-        std::endl;
-        
         result["status"] = "-1";
         result["message"] = e.what();
     }
